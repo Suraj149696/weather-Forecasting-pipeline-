@@ -1,13 +1,13 @@
-name: Daily Weather Forecast Pipeline
+name: Weather Forecast Pipeline
 
 on:
 
-  # Run every day automatically
-  schedule:
-    - cron: "0 3 * * *"
-
-  # Allow manual run
+  # Manual Run
   workflow_dispatch:
+
+  # Daily Automatic Run
+  schedule:
+    - cron: "45 13 * * *"   # 7:15 PM IST
 
 jobs:
 
@@ -17,59 +17,54 @@ jobs:
 
     steps:
 
-      # -----------------------------
-      # Checkout repository
-      # -----------------------------
+      # -----------------------------------
+      # 1. Checkout Repository
+      # -----------------------------------
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # -----------------------------
-      # Setup Python
-      # -----------------------------
+      # -----------------------------------
+      # 2. Setup Python
+      # -----------------------------------
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
-      # -----------------------------
-      # Cache pip packages
-      # -----------------------------
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+      # -----------------------------------
+      # 3. Upgrade pip
+      # -----------------------------------
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
 
-      # -----------------------------
-      # Install dependencies
-      # -----------------------------
-      - name: Install Requirements
+      # -----------------------------------
+      # 4. Install Requirements
+      # -----------------------------------
+      - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      # -----------------------------
-      # Run API Extraction
-      # -----------------------------
+      # -----------------------------------
+      # 5. Run Weather API Extraction
+      # -----------------------------------
       - name: Extract Weather Data
         run: python -m crs.extract.extract_api
 
-      # -----------------------------
-      # Run Data Transformation
-      # -----------------------------
+      # -----------------------------------
+      # 6. Run Data Transformation
+      # -----------------------------------
       - name: Transform Weather Data
         run: python -m crs.transform.transform_csv
 
-      # -----------------------------
-      # Run Forecast Prediction
-      # -----------------------------
+      # -----------------------------------
+      # 7. Run Forecast Prediction
+      # -----------------------------------
       - name: Generate Forecast
         run: python -m crs.model.predict
 
-      # -----------------------------
-      # Commit updated files
-      # -----------------------------
-      - name: Commit and Push Changes
+      # -----------------------------------
+      # 8. Commit Updated Files
+      # -----------------------------------
+      - name: Commit and Push Forecast Files
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
@@ -77,6 +72,6 @@ jobs:
           git add data/
           git add logs/
 
-          git commit -m "Auto update forecast" || echo "No changes"
+          git commit -m "Auto update forecast data" || echo "No changes to commit"
 
           git push
