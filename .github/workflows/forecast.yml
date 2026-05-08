@@ -1,0 +1,82 @@
+name: Daily Weather Forecast Pipeline
+
+on:
+
+  # Run every day automatically
+  schedule:
+    - cron: "0 3 * * *"
+
+  # Allow manual run
+  workflow_dispatch:
+
+jobs:
+
+  weather-pipeline:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # -----------------------------
+      # Checkout repository
+      # -----------------------------
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # -----------------------------
+      # Setup Python
+      # -----------------------------
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      # -----------------------------
+      # Cache pip packages
+      # -----------------------------
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # -----------------------------
+      # Install dependencies
+      # -----------------------------
+      - name: Install Requirements
+        run: pip install -r requirements.txt
+
+      # -----------------------------
+      # Run API Extraction
+      # -----------------------------
+      - name: Extract Weather Data
+        run: python -m crs.extract.extract_api
+
+      # -----------------------------
+      # Run Data Transformation
+      # -----------------------------
+      - name: Transform Weather Data
+        run: python -m crs.transform.transform_csv
+
+      # -----------------------------
+      # Run Forecast Prediction
+      # -----------------------------
+      - name: Generate Forecast
+        run: python -m crs.model.predict
+
+      # -----------------------------
+      # Commit updated files
+      # -----------------------------
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+          git add data/
+          git add logs/
+
+          git commit -m "Auto update forecast" || echo "No changes"
+
+          git push

@@ -1,0 +1,195 @@
+2026-05-07 15:42:17 | INFO     | predict | Loading model  → models/best_model.keras
+2026-05-07 15:42:17 | INFO     | predict | Loading scaler → models/scaler_params.pkl
+2026-05-07 15:46:54 | INFO     | predict | Project root : c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project
+2026-05-07 16:27:55 | INFO     | predict | Project root : c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project
+2026-05-07 16:27:55 | INFO     | predict | Loading model  -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\best_model.keras
+2026-05-07 16:27:55 | INFO     | predict | Loading scaler -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\scaler_params.pkl
+2026-05-07 16:27:56 | INFO     | predict | Reading CSV -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\processed\final_weather.csv
+2026-05-07 16:27:57 | INFO     | predict | Last known timestamp : 2026-05-04 23:00:00
+2026-05-07 16:27:57 | INFO     | predict | Input window         : 168 rows  (7 days)
+2026-05-07 16:27:57 | INFO     | predict | Forecast saved -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\Forecast\forecast.json
+2026-05-07 16:27:57 | INFO     | predict | ── 24-Hour Temperature Forecast ──
+2026-05-07 16:27:57 | INFO     | predict |   h+01  2026-05-05T00:00:00  ->  28.83 C
+2026-05-07 16:27:57 | INFO     | predict |   h+02  2026-05-05T01:00:00  ->  28.73 C
+2026-05-07 16:27:57 | INFO     | predict |   h+03  2026-05-05T02:00:00  ->  28.63 C
+2026-05-07 16:27:57 | INFO     | predict |   h+04  2026-05-05T03:00:00  ->  28.41 C
+2026-05-07 16:27:57 | INFO     | predict |   h+05  2026-05-05T04:00:00  ->  28.18 C
+2026-05-07 16:27:57 | INFO     | predict |   h+06  2026-05-05T05:00:00  ->  28.29 C
+2026-05-07 16:27:57 | INFO     | predict |   h+07  2026-05-05T06:00:00  ->  28.57 C
+2026-05-07 16:27:57 | INFO     | predict |   h+08  2026-05-05T07:00:00  ->  29.32 C
+2026-05-07 16:27:57 | INFO     | predict |   h+09  2026-05-05T08:00:00  ->  30.48 C
+2026-05-07 16:27:57 | INFO     | predict |   h+10  2026-05-05T09:00:00  ->  31.88 C
+2026-05-07 16:27:57 | INFO     | predict |   h+11  2026-05-05T10:00:00  ->  32.77 C
+2026-05-07 16:27:57 | INFO     | predict |   h+12  2026-05-05T11:00:00  ->  33.24 C
+2026-05-07 16:27:57 | INFO     | predict |   h+13  2026-05-05T12:00:00  ->  33.33 C
+2026-05-07 16:27:57 | INFO     | predict |   h+14  2026-05-05T13:00:00  ->  33.22 C
+2026-05-07 16:27:57 | INFO     | predict |   h+15  2026-05-05T14:00:00  ->  33.08 C
+2026-05-07 16:27:57 | INFO     | predict |   h+16  2026-05-05T15:00:00  ->  32.65 C
+2026-05-07 16:27:57 | INFO     | predict |   h+17  2026-05-05T16:00:00  ->  32.06 C
+2026-05-07 16:27:57 | INFO     | predict |   h+18  2026-05-05T17:00:00  ->  31.41 C
+2026-05-07 16:27:57 | INFO     | predict |   h+19  2026-05-05T18:00:00  ->  30.65 C
+2026-05-07 16:27:57 | INFO     | predict |   h+20  2026-05-05T19:00:00  ->  30.15 C
+2026-05-07 16:27:57 | INFO     | predict |   h+21  2026-05-05T20:00:00  ->  29.78 C
+2026-05-07 16:27:57 | INFO     | predict |   h+22  2026-05-05T21:00:00  ->  29.46 C
+2026-05-07 16:27:57 | INFO     | predict |   h+23  2026-05-05T22:00:00  ->  29.22 C
+2026-05-07 16:27:57 | INFO     | predict |   h+24  2026-05-05T23:00:00  ->  28.90 C
+2026-05-07 16:32:55 | INFO     | predict | Project root : c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project
+2026-05-07 16:32:55 | INFO     | predict | Loading model  -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\best_model.keras
+2026-05-07 16:32:55 | INFO     | predict | Loading scaler -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\scaler_params.pkl
+2026-05-07 16:32:56 | INFO     | predict | Reading CSV -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\processed\final_weather.csv
+2026-05-07 16:32:56 | INFO     | predict | Last known timestamp : 2026-05-04 23:00:00
+2026-05-07 16:32:56 | INFO     | predict | Input window         : 168 rows  (7 days)
+2026-05-07 16:32:57 | INFO     | predict | Forecast saved -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\Forecast\forecast.json
+2026-05-07 16:32:57 | INFO     | predict | ── 24-Hour Temperature Forecast ──
+2026-05-07 16:32:57 | INFO     | predict |   h+01  2026-05-05T00:00:00  ->  28.83 C
+2026-05-07 16:32:57 | INFO     | predict |   h+02  2026-05-05T01:00:00  ->  28.73 C
+2026-05-07 16:32:57 | INFO     | predict |   h+03  2026-05-05T02:00:00  ->  28.63 C
+2026-05-07 16:32:57 | INFO     | predict |   h+04  2026-05-05T03:00:00  ->  28.41 C
+2026-05-07 16:32:57 | INFO     | predict |   h+05  2026-05-05T04:00:00  ->  28.18 C
+2026-05-07 16:32:57 | INFO     | predict |   h+06  2026-05-05T05:00:00  ->  28.29 C
+2026-05-07 16:32:57 | INFO     | predict |   h+07  2026-05-05T06:00:00  ->  28.57 C
+2026-05-07 16:32:57 | INFO     | predict |   h+08  2026-05-05T07:00:00  ->  29.32 C
+2026-05-07 16:32:57 | INFO     | predict |   h+09  2026-05-05T08:00:00  ->  30.48 C
+2026-05-07 16:32:57 | INFO     | predict |   h+10  2026-05-05T09:00:00  ->  31.88 C
+2026-05-07 16:32:57 | INFO     | predict |   h+11  2026-05-05T10:00:00  ->  32.77 C
+2026-05-07 16:32:57 | INFO     | predict |   h+12  2026-05-05T11:00:00  ->  33.24 C
+2026-05-07 16:32:57 | INFO     | predict |   h+13  2026-05-05T12:00:00  ->  33.33 C
+2026-05-07 16:32:57 | INFO     | predict |   h+14  2026-05-05T13:00:00  ->  33.22 C
+2026-05-07 16:32:57 | INFO     | predict |   h+15  2026-05-05T14:00:00  ->  33.08 C
+2026-05-07 16:32:57 | INFO     | predict |   h+16  2026-05-05T15:00:00  ->  32.65 C
+2026-05-07 16:32:57 | INFO     | predict |   h+17  2026-05-05T16:00:00  ->  32.06 C
+2026-05-07 16:32:57 | INFO     | predict |   h+18  2026-05-05T17:00:00  ->  31.41 C
+2026-05-07 16:32:57 | INFO     | predict |   h+19  2026-05-05T18:00:00  ->  30.65 C
+2026-05-07 16:32:57 | INFO     | predict |   h+20  2026-05-05T19:00:00  ->  30.15 C
+2026-05-07 16:32:57 | INFO     | predict |   h+21  2026-05-05T20:00:00  ->  29.78 C
+2026-05-07 16:32:57 | INFO     | predict |   h+22  2026-05-05T21:00:00  ->  29.46 C
+2026-05-07 16:32:57 | INFO     | predict |   h+23  2026-05-05T22:00:00  ->  29.22 C
+2026-05-07 16:32:57 | INFO     | predict |   h+24  2026-05-05T23:00:00  ->  28.90 C
+2026-05-07 16:37:02 | INFO     | predict | Project root : c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project
+2026-05-07 16:37:02 | INFO     | predict | Loading model  -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\best_model.keras
+2026-05-07 16:37:03 | INFO     | predict | Loading scaler -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\scaler_params.pkl
+2026-05-07 16:37:04 | INFO     | predict | Reading CSV -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\processed\final_weather.csv
+2026-05-07 16:37:04 | INFO     | predict | Last known timestamp : 2026-05-04 23:00
+2026-05-07 16:37:04 | INFO     | predict | Input window         : 168 rows  (7 days)
+2026-05-07 16:37:05 | INFO     | predict | Forecast saved -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\Forecast\forecast.json
+2026-05-07 16:37:05 | INFO     | predict | ── 24-Hour Temperature Forecast ──
+2026-05-07 16:37:05 | INFO     | predict |   h+01  2026-05-05 00:00  ->  28.83 C
+2026-05-07 16:37:05 | INFO     | predict |   h+02  2026-05-05 01:00  ->  28.73 C
+2026-05-07 16:37:05 | INFO     | predict |   h+03  2026-05-05 02:00  ->  28.63 C
+2026-05-07 16:37:05 | INFO     | predict |   h+04  2026-05-05 03:00  ->  28.41 C
+2026-05-07 16:37:05 | INFO     | predict |   h+05  2026-05-05 04:00  ->  28.18 C
+2026-05-07 16:37:05 | INFO     | predict |   h+06  2026-05-05 05:00  ->  28.29 C
+2026-05-07 16:37:05 | INFO     | predict |   h+07  2026-05-05 06:00  ->  28.57 C
+2026-05-07 16:37:05 | INFO     | predict |   h+08  2026-05-05 07:00  ->  29.32 C
+2026-05-07 16:37:05 | INFO     | predict |   h+09  2026-05-05 08:00  ->  30.48 C
+2026-05-07 16:37:05 | INFO     | predict |   h+10  2026-05-05 09:00  ->  31.88 C
+2026-05-07 16:37:05 | INFO     | predict |   h+11  2026-05-05 10:00  ->  32.77 C
+2026-05-07 16:37:05 | INFO     | predict |   h+12  2026-05-05 11:00  ->  33.24 C
+2026-05-07 16:37:05 | INFO     | predict |   h+13  2026-05-05 12:00  ->  33.33 C
+2026-05-07 16:37:05 | INFO     | predict |   h+14  2026-05-05 13:00  ->  33.22 C
+2026-05-07 16:37:05 | INFO     | predict |   h+15  2026-05-05 14:00  ->  33.08 C
+2026-05-07 16:37:05 | INFO     | predict |   h+16  2026-05-05 15:00  ->  32.65 C
+2026-05-07 16:37:05 | INFO     | predict |   h+17  2026-05-05 16:00  ->  32.06 C
+2026-05-07 16:37:05 | INFO     | predict |   h+18  2026-05-05 17:00  ->  31.41 C
+2026-05-07 16:37:05 | INFO     | predict |   h+19  2026-05-05 18:00  ->  30.65 C
+2026-05-07 16:37:05 | INFO     | predict |   h+20  2026-05-05 19:00  ->  30.15 C
+2026-05-07 16:37:05 | INFO     | predict |   h+21  2026-05-05 20:00  ->  29.78 C
+2026-05-07 16:37:05 | INFO     | predict |   h+22  2026-05-05 21:00  ->  29.46 C
+2026-05-07 16:37:05 | INFO     | predict |   h+23  2026-05-05 22:00  ->  29.22 C
+2026-05-07 16:37:05 | INFO     | predict |   h+24  2026-05-05 23:00  ->  28.90 C
+2026-05-07 16:44:40 | INFO     | predict | Project root : c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project
+2026-05-07 16:44:40 | INFO     | predict | Loading model  -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\best_model.keras
+2026-05-07 16:44:40 | INFO     | predict | Loading scaler -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\scaler_params.pkl
+2026-05-07 16:44:41 | INFO     | predict | Reading CSV -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\processed\final_weather.csv
+2026-05-07 16:44:42 | INFO     | predict | Last known timestamp : 2026-05-04 23:00
+2026-05-07 16:44:42 | INFO     | predict | Input window         : 168 rows  (7 days)
+2026-05-07 16:44:42 | INFO     | predict | Forecast saved -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\Forecast\forecast_2026-05-05.json
+2026-05-07 16:44:42 | INFO     | predict | ── 24-Hour Forecast for 2026-05-05 ──
+2026-05-07 16:44:42 | INFO     | predict |   h+01  2026-05-05 00:00  ->  28.83 C
+2026-05-07 16:44:42 | INFO     | predict |   h+02  2026-05-05 01:00  ->  28.73 C
+2026-05-07 16:44:42 | INFO     | predict |   h+03  2026-05-05 02:00  ->  28.63 C
+2026-05-07 16:44:42 | INFO     | predict |   h+04  2026-05-05 03:00  ->  28.41 C
+2026-05-07 16:44:42 | INFO     | predict |   h+05  2026-05-05 04:00  ->  28.18 C
+2026-05-07 16:44:42 | INFO     | predict |   h+06  2026-05-05 05:00  ->  28.29 C
+2026-05-07 16:44:42 | INFO     | predict |   h+07  2026-05-05 06:00  ->  28.57 C
+2026-05-07 16:44:42 | INFO     | predict |   h+08  2026-05-05 07:00  ->  29.32 C
+2026-05-07 16:44:42 | INFO     | predict |   h+09  2026-05-05 08:00  ->  30.48 C
+2026-05-07 16:44:42 | INFO     | predict |   h+10  2026-05-05 09:00  ->  31.88 C
+2026-05-07 16:44:42 | INFO     | predict |   h+11  2026-05-05 10:00  ->  32.77 C
+2026-05-07 16:44:42 | INFO     | predict |   h+12  2026-05-05 11:00  ->  33.24 C
+2026-05-07 16:44:42 | INFO     | predict |   h+13  2026-05-05 12:00  ->  33.33 C
+2026-05-07 16:44:42 | INFO     | predict |   h+14  2026-05-05 13:00  ->  33.22 C
+2026-05-07 16:44:42 | INFO     | predict |   h+15  2026-05-05 14:00  ->  33.08 C
+2026-05-07 16:44:42 | INFO     | predict |   h+16  2026-05-05 15:00  ->  32.65 C
+2026-05-07 16:44:42 | INFO     | predict |   h+17  2026-05-05 16:00  ->  32.06 C
+2026-05-07 16:44:42 | INFO     | predict |   h+18  2026-05-05 17:00  ->  31.41 C
+2026-05-07 16:44:42 | INFO     | predict |   h+19  2026-05-05 18:00  ->  30.65 C
+2026-05-07 16:44:42 | INFO     | predict |   h+20  2026-05-05 19:00  ->  30.15 C
+2026-05-07 16:44:42 | INFO     | predict |   h+21  2026-05-05 20:00  ->  29.78 C
+2026-05-07 16:44:42 | INFO     | predict |   h+22  2026-05-05 21:00  ->  29.46 C
+2026-05-07 16:44:42 | INFO     | predict |   h+23  2026-05-05 22:00  ->  29.22 C
+2026-05-07 16:44:42 | INFO     | predict |   h+24  2026-05-05 23:00  ->  28.90 C
+2026-05-07 16:55:09 | INFO     | predict | Project root : c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project
+2026-05-07 16:55:09 | INFO     | predict | Loading model  -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\best_model.keras
+2026-05-07 16:55:09 | INFO     | predict | Loading scaler -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\scaler_params.pkl
+2026-05-07 16:55:10 | INFO     | predict | Reading CSV -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\processed\final_weather.csv
+2026-05-07 16:55:10 | INFO     | predict | Last known timestamp : 2026-05-06 23:00
+2026-05-07 16:55:10 | INFO     | predict | Input window         : 168 rows  (7 days)
+2026-05-07 16:55:11 | INFO     | predict | Forecast saved -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\Forecast\forecast.json
+2026-05-07 16:55:11 | INFO     | predict | ── 24-Hour Temperature Forecast ──
+2026-05-07 16:55:11 | INFO     | predict |   h+01  2026-05-07 00:00  ->  27.99 C
+2026-05-07 16:55:11 | INFO     | predict |   h+02  2026-05-07 01:00  ->  27.88 C
+2026-05-07 16:55:11 | INFO     | predict |   h+03  2026-05-07 02:00  ->  27.81 C
+2026-05-07 16:55:11 | INFO     | predict |   h+04  2026-05-07 03:00  ->  27.58 C
+2026-05-07 16:55:11 | INFO     | predict |   h+05  2026-05-07 04:00  ->  27.36 C
+2026-05-07 16:55:11 | INFO     | predict |   h+06  2026-05-07 05:00  ->  27.47 C
+2026-05-07 16:55:11 | INFO     | predict |   h+07  2026-05-07 06:00  ->  27.80 C
+2026-05-07 16:55:11 | INFO     | predict |   h+08  2026-05-07 07:00  ->  28.65 C
+2026-05-07 16:55:11 | INFO     | predict |   h+09  2026-05-07 08:00  ->  30.07 C
+2026-05-07 16:55:11 | INFO     | predict |   h+10  2026-05-07 09:00  ->  31.68 C
+2026-05-07 16:55:11 | INFO     | predict |   h+11  2026-05-07 10:00  ->  32.80 C
+2026-05-07 16:55:11 | INFO     | predict |   h+12  2026-05-07 11:00  ->  33.31 C
+2026-05-07 16:55:11 | INFO     | predict |   h+13  2026-05-07 12:00  ->  33.41 C
+2026-05-07 16:55:11 | INFO     | predict |   h+14  2026-05-07 13:00  ->  33.33 C
+2026-05-07 16:55:11 | INFO     | predict |   h+15  2026-05-07 14:00  ->  33.12 C
+2026-05-07 16:55:11 | INFO     | predict |   h+16  2026-05-07 15:00  ->  32.61 C
+2026-05-07 16:55:11 | INFO     | predict |   h+17  2026-05-07 16:00  ->  31.90 C
+2026-05-07 16:55:11 | INFO     | predict |   h+18  2026-05-07 17:00  ->  31.12 C
+2026-05-07 16:55:11 | INFO     | predict |   h+19  2026-05-07 18:00  ->  30.30 C
+2026-05-07 16:55:11 | INFO     | predict |   h+20  2026-05-07 19:00  ->  29.74 C
+2026-05-07 16:55:11 | INFO     | predict |   h+21  2026-05-07 20:00  ->  29.33 C
+2026-05-07 16:55:11 | INFO     | predict |   h+22  2026-05-07 21:00  ->  28.96 C
+2026-05-07 16:55:11 | INFO     | predict |   h+23  2026-05-07 22:00  ->  28.70 C
+2026-05-07 16:55:11 | INFO     | predict |   h+24  2026-05-07 23:00  ->  28.36 C
+2026-05-07 18:17:44 | INFO     | predict | Project root : c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project
+2026-05-07 18:17:44 | INFO     | predict | Loading model  -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\best_model.keras
+2026-05-07 18:17:44 | INFO     | predict | Loading scaler -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\models\scaler_params.pkl
+2026-05-07 18:17:46 | INFO     | predict | Reading CSV -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\processed\final_weather.csv
+2026-05-07 18:17:46 | INFO     | predict | Last known timestamp : 2026-05-06 23:00
+2026-05-07 18:17:46 | INFO     | predict | Input window         : 168 rows  (7 days)
+2026-05-07 18:17:47 | INFO     | predict | Forecast saved -> c:\Users\Suraj Jagtap\Desktop\Weather_Forcastong_Project\data\Forecast\forecast.json
+2026-05-07 18:17:47 | INFO     | predict | ── 24-Hour Temperature Forecast ──
+2026-05-07 18:17:47 | INFO     | predict |   h+01  2026-05-07 00:00  ->  27.99 C
+2026-05-07 18:17:47 | INFO     | predict |   h+02  2026-05-07 01:00  ->  27.88 C
+2026-05-07 18:17:47 | INFO     | predict |   h+03  2026-05-07 02:00  ->  27.81 C
+2026-05-07 18:17:47 | INFO     | predict |   h+04  2026-05-07 03:00  ->  27.58 C
+2026-05-07 18:17:47 | INFO     | predict |   h+05  2026-05-07 04:00  ->  27.36 C
+2026-05-07 18:17:47 | INFO     | predict |   h+06  2026-05-07 05:00  ->  27.47 C
+2026-05-07 18:17:47 | INFO     | predict |   h+07  2026-05-07 06:00  ->  27.80 C
+2026-05-07 18:17:47 | INFO     | predict |   h+08  2026-05-07 07:00  ->  28.65 C
+2026-05-07 18:17:47 | INFO     | predict |   h+09  2026-05-07 08:00  ->  30.07 C
+2026-05-07 18:17:47 | INFO     | predict |   h+10  2026-05-07 09:00  ->  31.68 C
+2026-05-07 18:17:47 | INFO     | predict |   h+11  2026-05-07 10:00  ->  32.80 C
+2026-05-07 18:17:47 | INFO     | predict |   h+12  2026-05-07 11:00  ->  33.31 C
+2026-05-07 18:17:47 | INFO     | predict |   h+13  2026-05-07 12:00  ->  33.41 C
+2026-05-07 18:17:47 | INFO     | predict |   h+14  2026-05-07 13:00  ->  33.33 C
+2026-05-07 18:17:47 | INFO     | predict |   h+15  2026-05-07 14:00  ->  33.12 C
+2026-05-07 18:17:47 | INFO     | predict |   h+16  2026-05-07 15:00  ->  32.61 C
+2026-05-07 18:17:47 | INFO     | predict |   h+17  2026-05-07 16:00  ->  31.90 C
+2026-05-07 18:17:47 | INFO     | predict |   h+18  2026-05-07 17:00  ->  31.12 C
+2026-05-07 18:17:47 | INFO     | predict |   h+19  2026-05-07 18:00  ->  30.30 C
+2026-05-07 18:17:47 | INFO     | predict |   h+20  2026-05-07 19:00  ->  29.74 C
+2026-05-07 18:17:47 | INFO     | predict |   h+21  2026-05-07 20:00  ->  29.33 C
+2026-05-07 18:17:47 | INFO     | predict |   h+22  2026-05-07 21:00  ->  28.96 C
+2026-05-07 18:17:47 | INFO     | predict |   h+23  2026-05-07 22:00  ->  28.70 C
+2026-05-07 18:17:47 | INFO     | predict |   h+24  2026-05-07 23:00  ->  28.36 C
