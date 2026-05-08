@@ -41,8 +41,9 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+          git fetch origin main
+          git reset --soft origin/main
           git add data/
           git add logs/
-          git commit -m "Auto update forecast" || echo "No changes to commit"
-          git pull --rebase origin main
+          git commit -m "Auto update forecast [$(date '+%Y-%m-%d %H:%M')]" || echo "No changes to commit"
           git push origin main
