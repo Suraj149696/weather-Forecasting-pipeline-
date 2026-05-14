@@ -65,43 +65,43 @@ weather-data-pipeline/
 ├── .env
 │
 ├── .github/
-│ └── workflows/
-│ └── forecast.yml
+│   └── workflows/
+│       └── forecast.yml
 │
-├── crs/ # Core pipeline logic
-│ ├── extract/ # Data extraction
-│ │ ├── extract_csv.py
-│ │ └── extract_api.py
+├── crs/                          # Core pipeline logic
+│   ├── extract/                  # Data extraction
+│   │   ├── extract_csv.py
+│   │   └── extract_api.py
 │
-│ ├── transform/ # Data cleaning & feature engineering
-│ │ ├── transform_csv.py
-│ │ └── transform_api.py
+│   ├── transform/               # Data cleaning & feature engineering
+│   │   ├── transform_csv.py
+│   │   └── transform_api.py
 │
-│ ├── model/ # ML model
-│ │ ├── train.py
-│ │ └── predict.py
+│   ├── model/                   # ML model
+│   │   ├── train.py
+│   │   └── predict.py
 │
-│ ├── utils/ # Common utilities
-│ │ ├── config.py
-│ │ └── logger.py
+│   ├── utils/                   # Common utilities
+│   │   ├── config.py
+│   │   └── logger.py
 │
-├── data/ # Data storage
-│ ├── raw/
-│ │ ├── weather_2010_2025.csv
-│ │ └── api_weather.csv
-│ │
-│ └── processed/
-│ └── final_weather.csv
+├── data/                        # Data storage
+│   ├── raw/
+│   │   ├── weather_2010_2025.csv
+│   │   └── api_weather.csv
+│   │
+│   └── processed/
+│       └── final_weather.csv
 │
-├── models/ # Saved ML model
-│ ├── best_model.keras
-│ └── scaler_params.pkl
+├── models/                      # Saved ML model
+│   ├── best_model.keras
+│   └── scaler_params.pkl
 │
-├── notebooks/ # EDA & experimentation
-│ └── eda.ipynb
+├── notebooks/                   # EDA & experimentation
+│   └── eda.ipynb
 │
 ├── logs/
-│ └── pipeline.log
+│   └── pipeline.log
 │
 ├── requirements.txt
 ├── README.md
