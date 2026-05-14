@@ -3,9 +3,9 @@ name: Weather Forecast Pipeline
 on:
   workflow_dispatch:
 
-  # Test Schedule → 8:25 PM IST
+  # Daily Schedule → 8:35 PM IST
   schedule:
-    - cron: "55 14 * * *"
+    - cron: "5 15 * * *"
 
 permissions:
   contents: write
@@ -60,7 +60,7 @@ jobs:
         run: python -m crs.model.predict
 
       # -----------------------------------
-      # 7. Print Current Runner Time
+      # 7. Print Current UTC Time
       # -----------------------------------
       - name: Print Current Time
         run: |
@@ -75,11 +75,11 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
 
-          git pull origin main --rebase
-
           git add data/
           git add logs/
 
-          git commit -m "Auto update forecast [$(date '+%Y-%m-%d %H:%M')]" || echo "No changes to commit"
+          git commit -m "Auto update forecast [$(date '+%Y-%m-%d %H:%M')]" || echo "No changes"
+
+          git pull origin main --rebase
 
           git push origin main
