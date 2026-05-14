@@ -3,9 +3,9 @@ name: Weather Forecast Pipeline
 on:
   workflow_dispatch:
 
-  # Daily Schedule → 8:35 PM IST
+  # Daily Schedule → 6:00 AM IST
   schedule:
-    - cron: "5 15 * * *"
+    - cron: "30 0 * * *"
 
 permissions:
   contents: write
@@ -81,5 +81,4 @@ jobs:
           git commit -m "Auto update forecast [$(date '+%Y-%m-%d %H:%M')]" || echo "No changes"
 
           git pull origin main --rebase
-
           git push origin main
