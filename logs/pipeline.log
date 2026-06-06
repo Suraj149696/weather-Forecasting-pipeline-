@@ -929,3 +929,35 @@
 2026-06-05 04:56:17 | INFO     | predict |   h+22  2026-06-05 21:00  ->  30.32 C
 2026-06-05 04:56:17 | INFO     | predict |   h+23  2026-06-05 22:00  ->  30.15 C
 2026-06-05 04:56:17 | INFO     | predict |   h+24  2026-06-05 23:00  ->  29.82 C
+2026-06-06 04:36:05 | INFO     | predict | Project root : /home/runner/work/weather-Forecasting-pipeline-/weather-Forecasting-pipeline-
+2026-06-06 04:36:05 | INFO     | predict | Loading model  -> /home/runner/work/weather-Forecasting-pipeline-/weather-Forecasting-pipeline-/models/best_model.keras
+2026-06-06 04:36:05 | INFO     | predict | Loading scaler -> /home/runner/work/weather-Forecasting-pipeline-/weather-Forecasting-pipeline-/models/scaler_params.pkl
+2026-06-06 04:36:05 | INFO     | predict | Reading CSV -> /home/runner/work/weather-Forecasting-pipeline-/weather-Forecasting-pipeline-/data/processed/final_weather.csv
+2026-06-06 04:36:05 | INFO     | predict | Last known timestamp : 2026-06-05 23:00
+2026-06-06 04:36:05 | INFO     | predict | Input window         : 168 rows  (7 days)
+2026-06-06 04:36:05 | INFO     | predict | Forecast saved -> /home/runner/work/weather-Forecasting-pipeline-/weather-Forecasting-pipeline-/data/Forecast/forecast.json
+2026-06-06 04:36:05 | INFO     | predict | ── 24-Hour Temperature Forecast ──
+2026-06-06 04:36:05 | INFO     | predict |   h+01  2026-06-06 00:00  ->  29.79 C
+2026-06-06 04:36:05 | INFO     | predict |   h+02  2026-06-06 01:00  ->  29.66 C
+2026-06-06 04:36:05 | INFO     | predict |   h+03  2026-06-06 02:00  ->  29.51 C
+2026-06-06 04:36:05 | INFO     | predict |   h+04  2026-06-06 03:00  ->  29.14 C
+2026-06-06 04:36:05 | INFO     | predict |   h+05  2026-06-06 04:00  ->  28.82 C
+2026-06-06 04:36:05 | INFO     | predict |   h+06  2026-06-06 05:00  ->  28.82 C
+2026-06-06 04:36:05 | INFO     | predict |   h+07  2026-06-06 06:00  ->  29.08 C
+2026-06-06 04:36:05 | INFO     | predict |   h+08  2026-06-06 07:00  ->  29.58 C
+2026-06-06 04:36:05 | INFO     | predict |   h+09  2026-06-06 08:00  ->  30.58 C
+2026-06-06 04:36:05 | INFO     | predict |   h+10  2026-06-06 09:00  ->  31.81 C
+2026-06-06 04:36:05 | INFO     | predict |   h+11  2026-06-06 10:00  ->  32.58 C
+2026-06-06 04:36:05 | INFO     | predict |   h+12  2026-06-06 11:00  ->  33.28 C
+2026-06-06 04:36:05 | INFO     | predict |   h+13  2026-06-06 12:00  ->  33.59 C
+2026-06-06 04:36:05 | INFO     | predict |   h+14  2026-06-06 13:00  ->  33.66 C
+2026-06-06 04:36:05 | INFO     | predict |   h+15  2026-06-06 14:00  ->  33.66 C
+2026-06-06 04:36:05 | INFO     | predict |   h+16  2026-06-06 15:00  ->  33.40 C
+2026-06-06 04:36:05 | INFO     | predict |   h+17  2026-06-06 16:00  ->  32.98 C
+2026-06-06 04:36:05 | INFO     | predict |   h+18  2026-06-06 17:00  ->  32.42 C
+2026-06-06 04:36:05 | INFO     | predict |   h+19  2026-06-06 18:00  ->  31.60 C
+2026-06-06 04:36:05 | INFO     | predict |   h+20  2026-06-06 19:00  ->  30.97 C
+2026-06-06 04:36:05 | INFO     | predict |   h+21  2026-06-06 20:00  ->  30.50 C
+2026-06-06 04:36:05 | INFO     | predict |   h+22  2026-06-06 21:00  ->  30.34 C
+2026-06-06 04:36:05 | INFO     | predict |   h+23  2026-06-06 22:00  ->  30.18 C
+2026-06-06 04:36:05 | INFO     | predict |   h+24  2026-06-06 23:00  ->  29.84 C
