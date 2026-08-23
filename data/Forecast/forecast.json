@@ -1,128 +1,128 @@
 {
-    "generated_at": "2026-08-22 01:57",
-    "base_datetime": "2026-08-21 23:00",
+    "generated_at": "2026-08-23 02:08",
+    "base_datetime": "2026-08-22 23:00",
     "unit": "C",
     "forecast_hours": 24,
     "forecast": [
         {
             "horizon": "h+01",
-            "datetime": "2026-08-22 00:00",
-            "temperature_C": 26.42
+            "datetime": "2026-08-23 00:00",
+            "temperature_C": 26.49
         },
         {
             "horizon": "h+02",
-            "datetime": "2026-08-22 01:00",
-            "temperature_C": 26.38
+            "datetime": "2026-08-23 01:00",
+            "temperature_C": 26.35
         },
         {
             "horizon": "h+03",
-            "datetime": "2026-08-22 02:00",
-            "temperature_C": 26.29
+            "datetime": "2026-08-23 02:00",
+            "temperature_C": 26.19
         },
         {
             "horizon": "h+04",
-            "datetime": "2026-08-22 03:00",
-            "temperature_C": 26.1
+            "datetime": "2026-08-23 03:00",
+            "temperature_C": 26.08
         },
         {
             "horizon": "h+05",
-            "datetime": "2026-08-22 04:00",
-            "temperature_C": 26.0
+            "datetime": "2026-08-23 04:00",
+            "temperature_C": 25.92
         },
         {
             "horizon": "h+06",
-            "datetime": "2026-08-22 05:00",
-            "temperature_C": 26.05
+            "datetime": "2026-08-23 05:00",
+            "temperature_C": 25.86
         },
         {
             "horizon": "h+07",
-            "datetime": "2026-08-22 06:00",
-            "temperature_C": 26.22
+            "datetime": "2026-08-23 06:00",
+            "temperature_C": 25.92
         },
         {
             "horizon": "h+08",
-            "datetime": "2026-08-22 07:00",
-            "temperature_C": 26.54
+            "datetime": "2026-08-23 07:00",
+            "temperature_C": 26.2
         },
         {
             "horizon": "h+09",
-            "datetime": "2026-08-22 08:00",
-            "temperature_C": 27.16
+            "datetime": "2026-08-23 08:00",
+            "temperature_C": 26.62
         },
         {
             "horizon": "h+10",
-            "datetime": "2026-08-22 09:00",
-            "temperature_C": 27.96
+            "datetime": "2026-08-23 09:00",
+            "temperature_C": 27.35
         },
         {
             "horizon": "h+11",
-            "datetime": "2026-08-22 10:00",
-            "temperature_C": 28.44
+            "datetime": "2026-08-23 10:00",
+            "temperature_C": 28.0
         },
         {
             "horizon": "h+12",
-            "datetime": "2026-08-22 11:00",
-            "temperature_C": 28.89
+            "datetime": "2026-08-23 11:00",
+            "temperature_C": 28.55
         },
         {
             "horizon": "h+13",
-            "datetime": "2026-08-22 12:00",
-            "temperature_C": 29.09
+            "datetime": "2026-08-23 12:00",
+            "temperature_C": 28.84
         },
         {
             "horizon": "h+14",
-            "datetime": "2026-08-22 13:00",
-            "temperature_C": 29.08
+            "datetime": "2026-08-23 13:00",
+            "temperature_C": 28.8
         },
         {
             "horizon": "h+15",
-            "datetime": "2026-08-22 14:00",
-            "temperature_C": 29.05
+            "datetime": "2026-08-23 14:00",
+            "temperature_C": 28.76
         },
         {
             "horizon": "h+16",
-            "datetime": "2026-08-22 15:00",
-            "temperature_C": 28.87
+            "datetime": "2026-08-23 15:00",
+            "temperature_C": 28.61
         },
         {
             "horizon": "h+17",
-            "datetime": "2026-08-22 16:00",
-            "temperature_C": 28.58
+            "datetime": "2026-08-23 16:00",
+            "temperature_C": 28.38
         },
         {
             "horizon": "h+18",
-            "datetime": "2026-08-22 17:00",
-            "temperature_C": 28.27
+            "datetime": "2026-08-23 17:00",
+            "temperature_C": 28.05
         },
         {
             "horizon": "h+19",
-            "datetime": "2026-08-22 18:00",
-            "temperature_C": 27.81
+            "datetime": "2026-08-23 18:00",
+            "temperature_C": 27.54
         },
         {
             "horizon": "h+20",
-            "datetime": "2026-08-22 19:00",
-            "temperature_C": 27.43
+            "datetime": "2026-08-23 19:00",
+            "temperature_C": 27.17
         },
         {
             "horizon": "h+21",
-            "datetime": "2026-08-22 20:00",
-            "temperature_C": 27.18
+            "datetime": "2026-08-23 20:00",
+            "temperature_C": 26.86
         },
         {
             "horizon": "h+22",
-            "datetime": "2026-08-22 21:00",
-            "temperature_C": 27.02
+            "datetime": "2026-08-23 21:00",
+            "temperature_C": 26.75
         },
         {
             "horizon": "h+23",
-            "datetime": "2026-08-22 22:00",
-            "temperature_C": 26.87
+            "datetime": "2026-08-23 22:00",
+            "temperature_C": 26.74
         },
         {
             "horizon": "h+24",
-            "datetime": "2026-08-22 23:00",
-            "temperature_C": 26.64
+            "datetime": "2026-08-23 23:00",
+            "temperature_C": 26.59
         }
     ]
 }
